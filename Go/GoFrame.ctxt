@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=GoFrame
+comment0.text=\r\n\ Implements\ certain\ aspects\ of\ the\ game\ of\ "Go"\r\n
+comment1.params=row\ col
+comment1.target=boolean\ isValid(int,\ int)
+comment2.params=
+comment2.target=void\ clearBoard()
+comment2.text=\r\n\ Clears\ the\ board\ of\ all\ stones\r\n
+comment3.params=row\ col
+comment3.target=void\ pressedOnSpace(int,\ int)
+comment3.text=\r\n\ If\ the\ given\ column\ and\ row\ positions\ are\ a\ legal\ location\ on\ the\ board,\r\n\ \ modifies\ the\ location\ by\ either\ changing\ the\ stone's\ color,\r\n\ \ or\ by\ adding\ or\ removing\ a\ stone.\r\n\r\n\ @param\ col\ The\ horizontal\ position\ of\ the\ spot\ on\ the\ board,\r\n\ \ \ \ \ \ \ \ \ \ \ \ with\ 0\ representing\ the\ left\ of\ the\ board.\r\n\ @param\ row\ The\ vertical\ position\ of\ the\ spot\ on\ the\ board,\r\n\ \ \ \ \ \ \ \ \ \ \ \ with\ 0\ representing\ the\ top\ of\ the\ board.\r\n
+comment4.params=
+comment4.target=void\ randomizeBoard()
+comment4.text=\r\n\ Places\ stones\ randomly\ on\ the\ board,\ with\r\n\ approximately\ 20%\ of\ the\ spaces\ blank,\ 40%\ black,\ 40%\ white\r\n
+comment5.params=
+comment5.target=void\ removeCapturedStones()
+comment5.text=\r\n\ Determine\ which\ stones\ are\ captured\ and\ remove\ them\ from\ the\ board\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Creates\ and\ displays\ frame\r\n\ @param\ args\r\n
+numComments=7
